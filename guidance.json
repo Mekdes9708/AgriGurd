@@ -1,0 +1,38 @@
+{
+  "common_rust": {
+    "title": "Possible common maize rust",
+    "scientific_name": "Puccinia sorghi",
+    "confirm": "Look for raised reddish-brown pustules on maize leaves. Inspect both sides and check other plants.",
+    "precautions": ["Photograph multiple leaves and document how widespread symptoms are.", "Seek local extension advice if symptoms are widespread or progressing."],
+    "prevention": ["Ask local extension services about resistant maize varieties adapted to the area.", "Monitor crops regularly and record when symptoms first appear."],
+    "citations": ["Gidi (2023), pp. 2-3"],
+    "limitations": "Leaf discoloration alone cannot confirm common rust."
+  },
+  "gray_leaf_spot": {
+    "title": "Possible gray leaf spot",
+    "scientific_name": "Cercospora spp.",
+    "confirm": "Look for tan-gray, often rectangular lesions that run parallel to veins; older symptoms may merge.",
+    "precautions": ["Inspect multiple plants and note whether lower leaves are affected.", "Consult an extension officer when damage is extensive or the pattern is uncertain."],
+    "prevention": ["Discuss locally adapted resistant varieties with an extension officer.", "Consider crop rotation with non-host crops when planning future seasons, considering local agronomic conditions."],
+    "citations": ["Gidi (2023), pp. 4-5"],
+    "limitations": "Early lesions overlap with other foliar diseases; symptoms alone are insufficient."
+  },
+  "northern_leaf_blight": {
+    "title": "Possible northern / Turcicum leaf blight",
+    "scientific_name": "Exserohilum turcicum",
+    "confirm": "Look for long, expanding tan lesions and substantial damaged leaf areas, especially in humid conditions.",
+    "precautions": ["Inspect additional plants and record growth stage and symptom spread.", "Seek extension review if a large leaf area is affected."],
+    "prevention": ["Discuss resistant maize cultivars suitable for local conditions.", "Review rotation and crop-residue practices with agricultural extension staff."],
+    "citations": ["Gidi (2023), pp. 5-6"],
+    "limitations": "Severe lesions can resemble other disease and noninfectious injury."
+  },
+  "healthy": {
+    "title": "No supported disease pattern recognized",
+    "scientific_name": "Not applicable",
+    "confirm": "The model only compares the photo against its four training classes; it cannot establish that a plant is free of disease.",
+    "precautions": ["If the plant is still showing unusual symptoms, take additional photos and seek extension advice."],
+    "prevention": ["Inspect plants regularly and use locally recommended crop-health practices."],
+    "citations": [],
+    "limitations": "A healthy class prediction does not rule out pests, viruses, nutrient deficiencies or drought stress."
+  }
+}
