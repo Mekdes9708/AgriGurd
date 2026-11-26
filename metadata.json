@@ -1,0 +1,22 @@
+{
+  "architecture": "MobileNetV2",
+  "input_size": [
+    224,
+    224
+  ],
+  "input_pixel_range": [
+    0,
+    255
+  ],
+  "classes": [
+    "healthy",
+    "northern_leaf_blight",
+    "gray_leaf_spot",
+    "common_rust"
+  ],
+  "test_accuracy": 0.9217,
+  "test_samples": 447,
+  "validation_type": "Same-dataset random split",
+  "field_validated": false,
+  "warning": "Research prototype. Not a confirmed plant disease diagnosis."
+}
